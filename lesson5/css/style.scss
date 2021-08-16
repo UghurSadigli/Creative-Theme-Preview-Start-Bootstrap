@@ -1,0 +1,319 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#header {
+    z-index: 11;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding: 20px 8rem;
+   .left {
+    float: left;
+    a{
+        color: #ffffff;
+        font-size: 22px;
+        opacity: 0.9;
+        font-weight: bold;
+    }
+      }
+   .right{
+    float: right;
+    margin-top:5px ;
+    a{  
+        color: #ffffff;
+        font-size: 18px;
+        margin-left: 20px ;
+        opacity: 0.9;
+        font-weight: bold;
+    }
+       }
+    }
+.first{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+    background-position:center;
+    padding: 13rem 0;
+    text-align: center;
+    position: relative;
+    z-index: 1 ;
+    .overlay{
+        z-index: -11;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(92, 77, 66, 0.8);
+    }
+    h1{
+        font-weight: 400;
+        font-size: 60px;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    hr{
+        color: #f4623a;
+        background-color: #f4623a;
+        width: 70px;
+        margin:auto;
+        border: 1px solid #f4623a;
+        margin-bottom: 16px;
+    }
+    p{
+        font-size: 22px;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+    a{
+        background-color: #f4623a;
+        padding: 20px 36px;
+        border-radius: 32px;
+        font-size: 14px;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+.two{
+    background-color: #f4623a;
+    padding: 8rem 0;
+    text-align: center;
+    overflow: hidden;
+  h2{
+      font-weight: 400;
+     margin-bottom:25px ;
+     font-size: 40px;
+     color: #fff;
+  }
+  p{
+      color: #fff;
+      font-size: 22px;
+      margin-bottom: 3rem;
+  }
+  hr{
+    color: #fff;
+    background-color: #fff;
+    width: 70px;
+    margin:auto;
+    border: 1px solid #fff;
+    margin-bottom: 16px;
+    
+  }
+  a {
+    color: #000;
+    background-color: #fff;
+    font-size: 15px;
+    border-radius: 2rem;
+    padding: 20px 36px;
+    }
+}
+.four{
+    overflow: hidden;
+    .four-text{
+       h2{
+        color:#000;
+        font-size: 32px;
+        margin-bottom: 30px;
+        font-weight: bold;
+       }
+        hr{
+        color: #f4623a;
+        background-color: #f4623a;
+        width: 70px;
+        margin:auto;
+        border: 1.5px solid #f4623a;
+        margin-bottom: 16px;
+
+        }
+    }
+    
+    text-align: center;
+    padding: 8rem 0;
+    .box{
+        .gem{
+            color: #f4623a;
+            background-color: #fff;
+            font-size: 3rem;
+            margin-bottom: 8px;
+            font-weight: 100;
+        }
+        .laptop{
+            color: #f4623a;
+            background-color: #fff;
+            font-size: 3rem;
+            margin-bottom: 8px;
+            font-weight: 100;
+        }
+        .globe{
+            color: #f4623a;
+            background-color: #fff;
+            font-size: 3rem;
+            margin-bottom: 8px;
+            font-weight: 100;
+        }
+        .heart{
+            color: #f4623a;
+            background-color: #fff;
+            font-size: 3rem;
+            margin-bottom: 8px;
+            font-weight: 100;
+        }
+        float: left;
+        margin: auto;
+        width: 25%;
+        padding: 20px 0;
+    }
+    .box-text{
+        margin-top: 50px;
+        h3{
+            color: #000;
+        font-size: 24px ;
+        margin-bottom: 10px;
+        }
+        p{
+            color: #6d757c;
+            font-size: 19px;
+        }
+    }
+
+}
+ .five{
+       .box{
+           .overlay{
+               transition: 0.7s;
+               opacity: 0;
+               width: 100%;
+               height: 100%;
+               top: 0;
+               left:0;
+               position: absolute;
+               background-color: #f4623a;
+           }
+           &:hover{
+               .overlay{
+                   opacity: 0.8;
+               }
+               .box-text{
+                   opacity: 0.8;
+               }
+           }
+        float: left;
+        width: calc(100%/3);
+        position: relative;
+   .box-text{
+       overflow: hidden;
+    color: #fff;
+   text-align: center;
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: 0.7s;
+}
+         img{
+            width: 100%;
+            vertical-align: bottom;
+        }
+    }
+}
+.ten{
+    background-color: #212529;
+    padding: 7rem 0;
+    text-align: center;
+    h2{
+        overflow: hidden;
+        color: #000;
+        font-size: 36px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        padding: 3rem;
+    }
+    a{
+        color: #000;
+        background-color: #fff;
+        font-size: 22px;
+        border-radius: 2rem;
+        padding: 20px 36px; 
+    }
+}
+
+.eight{
+    text-align: center;
+    padding: 15rem 0;
+    .eight-text{
+     h2{
+        color:#000;
+        font-size: 32px;
+        margin-bottom: 30px;
+        font-weight: bold;
+     }
+     hr{
+        color: #f4623a;
+        background-color: #f4623a;
+        width: 70px;
+        margin:auto;
+        border: 1.5px solid #f4623a;
+        margin-bottom: 16px;
+     }
+     p{
+        color: #6d757c;
+        font-size: 19px;
+        margin-bottom: 50px;
+     }
+    }
+   .form{
+       padding: 20px 0;
+       width: 50%;
+       margin: auto;
+       overflow: hidden;
+       input{
+           width: 80%;
+           margin-bottom: 20px ;
+           height: 50px;
+           padding-left: 15px;
+           font-size: 15px;
+           border-radius: 4px;
+           outline: none;
+           border: 1px solid #ced4da;
+       }
+       textarea{
+           width: 80%;
+           margin-bottom:50px ;
+           font-size: 50px;
+       }
+       a{
+        color: #fff;
+        background-color: #f4623a;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 2rem;
+        padding: 20px 14rem  ; 
+       }
+       .end{
+           .phone{
+               color: #f4623a;
+               font-size: 50px;
+               margin-top: 70px;
+               font-weight: 200;
+           p{
+               font-size: 50px;
+               margin-top: 50px;
+           }
+           }
+       }
+   } 
+}
+
+
+
+
+
+
+
+
+

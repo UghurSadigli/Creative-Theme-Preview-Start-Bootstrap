@@ -1,0 +1,346 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  z-index: 11;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding: 20px 8rem;
+}
+
+#header .left {
+  float: left;
+}
+
+#header .left a {
+  color: #ffffff;
+  font-size: 22px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+#header .right {
+  float: right;
+  margin-top: 5px;
+}
+
+#header .right a {
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 20px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.first {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 13rem 0;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.first .overlay {
+  z-index: -11;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(92, 77, 66, 0.8);
+}
+
+.first h1 {
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.first hr {
+  color: #f4623a;
+  background-color: #f4623a;
+  width: 70px;
+  margin: auto;
+  border: 1px solid #f4623a;
+  margin-bottom: 16px;
+}
+
+.first p {
+  font-size: 22px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.first a {
+  background-color: #f4623a;
+  padding: 20px 36px;
+  border-radius: 32px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.two {
+  background-color: #f4623a;
+  padding: 8rem 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.two h2 {
+  font-weight: 400;
+  margin-bottom: 25px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.two p {
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 3rem;
+}
+
+.two hr {
+  color: #fff;
+  background-color: #fff;
+  width: 70px;
+  margin: auto;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
+}
+
+.two a {
+  color: #000;
+  background-color: #fff;
+  font-size: 15px;
+  border-radius: 2rem;
+  padding: 20px 36px;
+}
+
+.four {
+  overflow: hidden;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.four .four-text h2 {
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.four .four-text hr {
+  color: #f4623a;
+  background-color: #f4623a;
+  width: 70px;
+  margin: auto;
+  border: 1.5px solid #f4623a;
+  margin-bottom: 16px;
+}
+
+.four .box {
+  float: left;
+  margin: auto;
+  width: 25%;
+  padding: 20px 0;
+}
+
+.four .box .gem {
+  color: #f4623a;
+  background-color: #fff;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+
+.four .box .laptop {
+  color: #f4623a;
+  background-color: #fff;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+
+.four .box .globe {
+  color: #f4623a;
+  background-color: #fff;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+
+.four .box .heart {
+  color: #f4623a;
+  background-color: #fff;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  font-weight: 100;
+}
+
+.four .box-text {
+  margin-top: 50px;
+}
+
+.four .box-text h3 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.four .box-text p {
+  color: #6d757c;
+  font-size: 19px;
+}
+
+.five .box {
+  float: left;
+  width: calc(100%/3);
+  position: relative;
+}
+
+.five .box .overlay {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #f4623a;
+}
+
+.five .box:hover .overlay {
+  opacity: 0.8;
+}
+
+.five .box:hover .box-text {
+  opacity: 0.8;
+}
+
+.five .box .box-text {
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.five .box img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.ten {
+  background-color: #212529;
+  padding: 7rem 0;
+  text-align: center;
+}
+
+.ten h2 {
+  overflow: hidden;
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  padding: 3rem;
+}
+
+.ten a {
+  color: #000;
+  background-color: #fff;
+  font-size: 22px;
+  border-radius: 2rem;
+  padding: 20px 36px;
+}
+
+.eight {
+  text-align: center;
+  padding: 15rem 0;
+}
+
+.eight .eight-text h2 {
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.eight .eight-text hr {
+  color: #f4623a;
+  background-color: #f4623a;
+  width: 70px;
+  margin: auto;
+  border: 1.5px solid #f4623a;
+  margin-bottom: 16px;
+}
+
+.eight .eight-text p {
+  color: #6d757c;
+  font-size: 19px;
+  margin-bottom: 50px;
+}
+
+.eight .form {
+  padding: 20px 0;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.eight .form input {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 50px;
+  padding-left: 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ced4da;
+}
+
+.eight .form textarea {
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.eight .form a {
+  color: #fff;
+  background-color: #f4623a;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 2rem;
+  padding: 20px 14rem;
+}
+
+.eight .form .end .phone {
+  color: #f4623a;
+  font-size: 50px;
+  margin-top: 70px;
+  font-weight: 200;
+}
+
+.eight .form .end .phone p {
+  font-size: 50px;
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */
